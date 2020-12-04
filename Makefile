@@ -11,4 +11,4 @@ publish:
 	poetry publish --dry-run
 
 package-install:
-	pip install --user dist/*.whl
+	pip install --user dist/*.whl --force-reinstall
