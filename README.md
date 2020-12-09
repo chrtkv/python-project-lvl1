@@ -12,3 +12,9 @@
 
 ### Failing Brain Even game
 [![asciicast](https://asciinema.org/a/Grn43TQoaVTV0xLzKiypO5orW.svg)](https://asciinema.org/a/Grn43TQoaVTV0xLzKiypO5orW)
+
+### Successful Brain Calc game
+[![asciicast](https://asciinema.org/a/efI3dn0GIryEVpnQsIZ72mnO7.svg)](https://asciinema.org/a/efI3dn0GIryEVpnQsIZ72mnO7)
+
+### Failing Brain Calc game
+[![asciicast](https://asciinema.org/a/Rr526eK92rG8E09RixZpJg43U.svg)](https://asciinema.org/a/Rr526eK92rG8E09RixZpJg43U)
