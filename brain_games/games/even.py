@@ -12,5 +12,5 @@ def is_even(number):
 
 def even_game():
     question = random.randint(0, 100)
-    correct_answer = 'yes' if is_even(question) else 'no'
-    return (question, correct_answer)
+    answer = 'yes' if is_even(question) else 'no'
+    return (question, answer)

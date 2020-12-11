@@ -19,5 +19,5 @@ def gcd_game():
     m = random.randint(1, 100)
     n = random.randint(1, 100)
     question = f'{m} {n}'
-    correct_answer = gcd(m, n)
-    return (question, str(correct_answer))
+    answer = gcd(m, n)
+    return (question, str(answer))

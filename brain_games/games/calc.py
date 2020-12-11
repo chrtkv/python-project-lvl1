@@ -17,5 +17,5 @@ def calc_game():
     m = random.randint(0, 100)
     n = random.randint(0, 100)
     question = f'{m} {operator} {n}'
-    correct_answer = operators[operator](m, n)
-    return (question, str(correct_answer))
+    answer = operators[operator](m, n)
+    return (question, str(answer))
