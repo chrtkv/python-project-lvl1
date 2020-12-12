@@ -1,10 +1,15 @@
 import prompt
 
 
-def engine(rules, game, attempts=3):
+def welcome_user():
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
+    return name
+
+
+def engine(rules, game, attempts=3):
+    name = welcome_user()
 
     print(rules)
     for _i in range(attempts):
