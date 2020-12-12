@@ -30,3 +30,9 @@
 
 ### Failing Progression Game
 [![asciicast](https://asciinema.org/a/1Rsfyx529p3XjQ9nJ8TEorBb0.svg)](https://asciinema.org/a/1Rsfyx529p3XjQ9nJ8TEorBb0)
+
+### Successful Prime Game
+[![asciicast](https://asciinema.org/a/qedLop2vt4i6kqiXGRPiH5Kw7.svg)](https://asciinema.org/a/qedLop2vt4i6kqiXGRPiH5Kw7)
+
+### Failing Prime Game
+[![asciicast](https://asciinema.org/a/UfjZp4GiIRxa74sksiq8rJFxu.svg)](https://asciinema.org/a/UfjZp4GiIRxa74sksiq8rJFxu)
