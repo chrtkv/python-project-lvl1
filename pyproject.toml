@@ -1,8 +1,13 @@
 [tool.poetry]
 name = "hexlet_code"
-version = "0.2.0"
-description = "Level 1 Hexlet project on Python"
+version = "0.3.0"
+description = "First level study project on Hexlet Python course (https://ru.hexlet.io/professions/python)"
 authors = ["Kirill Chertkov <chertkov.k@gmail.com>"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Education",
+  "Topic :: Games/Entertainment :: Puzzle Games",
+]
 packages = [
   { include = "brain_games" },
 ]
