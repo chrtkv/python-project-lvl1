@@ -9,7 +9,7 @@ def progression_game():
     step = random.randint(2, 10)
     # size of progression — from 5 to 10 numbers
     size = random.choice(range(5, 11))
-    progression = list(range(start, start+step*size, step))
+    progression = list(range(start, start + step * size, step))
 
     omitted_number_index = random.choice(range(0, size))
     answer = progression[omitted_number_index]

@@ -17,7 +17,7 @@ def engine(rules, game, attempts=3):
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if correct_answer != answer:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")  # noqa: E501
             print(f"Let's try again, {name}!")
             return
         print('Correct!')
