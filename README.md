@@ -24,3 +24,9 @@
 
 ### Failing GCD Game
 [![asciicast](https://asciinema.org/a/VLC4p0S1JeUu3gwBbqF5TmCse.svg)](https://asciinema.org/a/VLC4p0S1JeUu3gwBbqF5TmCse)
+
+### Successful Progression Game
+[![asciicast](https://asciinema.org/a/aNrgtDjQqE2D2cbilu1eBqRjs.svg)](https://asciinema.org/a/aNrgtDjQqE2D2cbilu1eBqRjs)
+
+### Failing Progression Game
+[![asciicast](https://asciinema.org/a/1Rsfyx529p3XjQ9nJ8TEorBb0.svg)](https://asciinema.org/a/1Rsfyx529p3XjQ9nJ8TEorBb0)
