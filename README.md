@@ -4,6 +4,8 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/44a724520f4058263543/maintainability)](https://codeclimate.com/github/kirill-chertkov/python-project-lvl1/maintainability)
 
 
+[Read more about this project on Hexlet](https://ru.hexlet.io/professions/python/projects/49/)
+
 ## Demo
 
 ### Installing
