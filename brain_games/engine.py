@@ -2,7 +2,7 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def engine(game, attempts=3):
+def run(game, attempts=3):
     name = welcome_user()
     print(game.RULES)
     for _ in range(attempts):
