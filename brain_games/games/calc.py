@@ -10,10 +10,10 @@ OPERATORS = {
 }
 
 
-def calc_game():
+def generate_round():
     operator = random.choice(['+', '-', '*'])
     m = random.randint(0, 100)
     n = random.randint(0, 100)
     question = f'{m} {operator} {n}'
     answer = OPERATORS[operator](m, n)
-    return (question, str(answer))
+    return question, str(answer)

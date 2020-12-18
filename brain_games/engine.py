@@ -2,11 +2,11 @@ import prompt
 from brain_games.cli import welcome_user
 
 
-def engine(rules, game, attempts=3):
+def engine(game, attempts=3):
     name = welcome_user()
-    print(rules)
-    for _i in range(attempts):
-        question, correct_answer = game()
+    print(game.RULES)
+    for _ in range(attempts):
+        question, correct_answer = game.generate_round()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if correct_answer != answer:

@@ -9,7 +9,7 @@ def is_even(number):
     return False
 
 
-def even_game():
+def generate_round():
     question = random.randint(0, 100)
     answer = 'yes' if is_even(question) else 'no'
-    return (question, answer)
+    return question, answer

@@ -19,8 +19,8 @@ def is_prime(n):
     return inner(n, divisor)
 
 
-def prime_game():
+def generate_round():
     n = random.randint(0, 500)
     question = n
     answer = 'yes' if is_prime(n) else 'no'
-    return (question, answer)
+    return question, answer

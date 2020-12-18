@@ -3,7 +3,7 @@ import random
 RULES = 'What number is missing in the progression?'
 
 
-def progression_game():
+def generate_round():
     start = random.randint(1, 100)
     step = random.randint(2, 10)
     # size of progression — from 5 to 10 numbers
@@ -14,4 +14,4 @@ def progression_game():
     answer = progression[omitted_number_index]
     question = ' '.join(['..' if i == answer else str(i) for i in progression])
 
-    return(question, str(answer))
+    return question, str(answer)
