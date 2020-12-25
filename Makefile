@@ -16,5 +16,4 @@ package-install:
 lint:
 	poetry run flake8 brain_games
 
-pinstall:
-	make build package-install 
+pinstall: build package-install
