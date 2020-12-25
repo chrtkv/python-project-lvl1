@@ -3,7 +3,7 @@ import operator
 
 DESCRIPTION = 'What is the result of the expression?'
 
-OPERATORS = {
+OPERATIONS = {
     '+': operator.add,
     '-': operator.sub,
     '*': operator.mul,
@@ -11,9 +11,9 @@ OPERATORS = {
 
 
 def generate_round():
-    operator = random.choice(['+', '-', '*'])
+    sign = random.choice(['+', '-', '*'])
     m = random.randint(0, 100)
     n = random.randint(0, 100)
-    question = f'{m} {operator} {n}'
-    answer = OPERATORS[operator](m, n)
+    question = f'{m} {sign} {n}'
+    answer = OPERATIONS[sign](m, n)
     return question, str(answer)
