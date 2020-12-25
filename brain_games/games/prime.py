@@ -20,7 +20,6 @@ def is_prime(n):
 
 
 def generate_round():
-    n = random.randint(0, 500)
-    question = n
-    answer = 'yes' if is_prime(n) else 'no'
+    question = random.randint(0, 500)
+    answer = 'yes' if is_prime(question) else 'no'
     return question, answer
