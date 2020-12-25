@@ -1,7 +1,7 @@
 import random
 import operator
 
-RULES = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 OPERATORS = {
     '+': operator.add,
